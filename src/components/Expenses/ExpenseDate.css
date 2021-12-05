@@ -1,0 +1,55 @@
+.date{
+    border: 2px solid rgba(0, 0, 0, 0.384);
+    padding: 10px 7.4px;
+    border-radius: 12px;
+    background-color: rgb(233, 233, 233);
+    width: 75px;
+}
+.day{
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3px;
+}
+.month{
+    font-size: .74rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2px;
+}
+.year{
+    font-size: .8rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (min-width:360px) and (max-width:590px){
+    .date{
+        width: 70px;
+        padding: 10px 6px;
+    }
+    .day{
+        font-size: .9rem;
+    }
+    .month{
+        font-size: .69rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .year{
+        font-size: .7rem;
+    }
+}
+@media (max-width:360px){
+    .date{
+        width: 70px;
+        padding: 10px 6px;
+    }
+    .day{
+        font-size: .8rem;
+    }
+    .month{
+        font-size: .55rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .year{
+        font-size: .65rem;
+    }
+}

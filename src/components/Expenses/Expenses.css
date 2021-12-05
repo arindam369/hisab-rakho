@@ -1,0 +1,11 @@
+.expenses{
+    border: 8px solid rgb(15, 13, 13);
+    padding: 6px;
+}
+.noExpenses{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    border-top: 1px solid white;
+}

@@ -1,0 +1,110 @@
+form{
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(43, 43, 43, 0.603);
+    border-radius: 10px;
+    color: white;
+    height: 138px;
+}
+.date-amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 13px 5px;
+}
+.title label{
+    margin-right: 20px;
+}
+form button{
+    padding: 5px 14px;
+    border-radius: 8px;
+}
+.button-box{
+    margin-top: 10px;
+    float: right;
+}
+button{
+    padding: 5px 14px;
+    border-radius: 8px;
+    border: 1px solid rgb(31, 31, 31);
+    margin: 5px 10px;
+}
+.cancel:hover{
+    background-color: rgb(141, 40, 40);
+    color: white;
+}
+.addExpense:hover{
+    color: white;
+    background-color: rgb(107, 187, 26);
+}
+input{
+    padding: 3px 9px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid black;
+}
+input[type="number"]{
+    width: 100px;
+}
+input[type="date"]{
+    width: 145px;
+}
+label input{
+    margin-left: 10px;
+}
+
+
+@media (min-width:360px) and (max-width:590px){
+    .date-amount{
+        margin: 15px 5px;
+    }
+    input,label{
+        font-size: .8rem;
+    }
+    button{
+        font-size: .7rem;
+    }
+    form{
+        padding: 10px 8px;
+        height: 130px;
+    }
+    input[type="number"]{
+        width: 75px;
+        font-size: .67rem;
+        margin-top: 4px;
+    }
+    input[type="date"]{
+        font-size: .6rem;
+        width: 105px;
+        margin-top: 4px;
+    }
+}
+
+@media(max-width:360px){
+    .date-amount{
+        margin: 7px 5px;
+    }
+    input,label{
+        font-size: .7rem;
+    }
+    button{
+        font-size: .7rem;
+    }
+    form{
+        padding: 3px 8px;
+        height: 125px;
+    }
+    input[type="number"]{
+        width: 65px;
+        font-size: .67rem;
+        margin-top: 4px;
+    }
+    input[type="date"]{
+        font-size: .6rem;
+        width: 90px;
+        margin-top: 4px;
+    }
+    .button-box{
+        margin-top: 7px;
+    }
+}
