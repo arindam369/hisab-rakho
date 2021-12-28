@@ -6,7 +6,7 @@ import ExpensesFilter from "../filter/ExpensesFilter";
 import ExpensesChart from "./ExpensesChart";
 
 export default function Expenses(props) {
-    const [year, setYear] = useState("2021");
+    const [year, setYear] = useState("2022");
 
     function saveFilteredYearHandler(year) {
         const filteredYear = year;

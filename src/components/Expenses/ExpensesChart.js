@@ -18,7 +18,7 @@ export default function ExpensesChart(props){
 
     for(const expense of props.expenses){
         const expenseMonth = expense.date.split("T")[0].split("-")[1]   // getMonth() gives Jan 0,Feb 1,...
-        chartDataPoints[expenseMonth-1].value += expense.price;
+        chartDataPoints[expenseMonth-1].value += parseFloat(expense.price);
     }
 
     return(
